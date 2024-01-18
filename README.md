@@ -8,34 +8,34 @@
 ## Настройки анализа
 <br>
 Имя пользователя или название беседы<br>
-NAME
-<br>
+### NAME
+<br><br>
 Используемая модель (DBSCAN или KMeans)<br>
 При некорректном имени по умолчанию будет использован KMeans<br>
-MODEL_TYPE
-<br>
+### MODEL_TYPE
+<br><br>
 Максимальное количество кластеров (для KMeans)<br>
-MAX_CLUSTERS
-<br>
+### MAX_CLUSTERS
+<br><br>
 eta для DBSCAN<br>
-ETA
-<br>
+### ETA
+<br><br>
 Использовать PCA перед кластеризацией (True или False)<br>
-USE_PCA
-<br>
+### USE_PCA
+<br><br>
 Минимальный порог для TF-IDF<br>
-MIN_DF
-<br>
+### MIN_DF
+<br><br>
 Количество точек для визуализации PCA<br>
-POINT_COUNT
-<br>
+### POINT_COUNT
+<br><br>
 Сохранять информацию в csv файле после парсинга (True или False)<br>
 Если False, при каждом новом запуске программы будет осуществляться повторный парсинг, что может занимать много времени<br>
-SAVE_TO_CSV
-<br>
+### SAVE_TO_CSV
+<br><br>
 Чтение информации из csv файла (True или False)<br>
 Если False, существующие csv файлы будут проигнорированы и перезаписаны (если SAVE_TO_CSV = True). Используйте если обновили данные архива<br>
-READ_FROM_CSV
-<br>
+### READ_FROM_CSV
+<br><br>
 Количество компонент для PCA (график будет выведен только для 2 или 3 компонент)<br>
-PCA_COMPONENTS
+### PCA_COMPONENTS
